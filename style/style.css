@@ -65,6 +65,7 @@ body {
 
 .main {
   padding-block: 0 max(5rem, 10%);
+  background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
 }
 
 .footer {
@@ -171,10 +172,6 @@ body {
 }
 .hero__img--wrapper img {
   width: 100%;
-}
-
-.sctn {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
 }
 
 .sctn-wrapper {
