@@ -1,0 +1,33 @@
+//@ Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+//Fonts:
+$ff-jakarta: 'Plus Jakarta Sans', sans-serif;
+// Colors:
+    // Primary
+    $c-blue-light: hsla(234, 25%, 52%, 1);
+    $c-blue-dark: hsla(234, 53%, 16%, 1);
+    $c-blue-grayish: hsla(233, 10%, 56%, 1);
+    $c-pink: hsla(341, 92%, 62%, 1);
+    $c-pink-soft: hsla(341, 100%, 83%, 1);
+    // gradients:
+    $c-g1-1: hsla(13, 100%, 64%, 1);
+    $c-g1-2: hsla(322, 87%, 55%, 1);
+    $c-g2-1: hsla(237, 100%, 64%, 1);
+    $c-g2-2: hsla(322, 87%, 55%, 1);
+    // Neutral
+    $c-n-white: hsl(0,0%,100%);
+    $c-n-black: hsl(0,0%,0%);
+// Screen Variables
+    $screen-min: 23.4375rem;
+    $screen-max: 90rem;
+
+
+
+body{ 
+    min-height: 100vh;
+    min-height: 100svh;
+    background-color: $c-n-white;    
+}
+
+
+
