@@ -61,7 +61,6 @@ body {
 
 .header {
   padding-block: 1rem 0;
-  z-index: 2;
 }
 
 .main {
@@ -168,7 +167,7 @@ body {
   transform: translate(-50%, 0%);
   top: 0;
   left: 50%;
-  z-index: 4;
+  z-index: -1;
 }
 .hero__img--wrapper img {
   width: 100%;
