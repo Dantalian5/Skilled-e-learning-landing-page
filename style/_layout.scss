@@ -1,0 +1,32 @@
+.container{
+    min-width: 21.875rem;
+    max-width: 90rem;
+    margin-inline: auto;
+    padding-inline: clamp(1rem, 4% , 10.3125rem);
+    padding-top: 1rem;
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+}
+.row{
+    flex-flow: row wrap;
+    &__clm{
+        flex: 1 1;
+    }
+}
+.footer{
+    padding-block: 2rem;
+    background: $c-blue-dark;
+}
+@media (min-width:43.75rem){
+    .container{
+        padding-inline: clamp(1rem, 5% , 10.3125rem);
+    }
+}
+@media (min-width:62.5rem){
+    .container{
+        padding-inline: clamp(1rem, 12% , 10.3125rem);
+    }
+}
+
